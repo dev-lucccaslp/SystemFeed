@@ -1,8 +1,12 @@
+import { Header } from "./components/header"
 import { Post } from "./Post"
+
 
 export function App() {
   return (
     <div>
+      <Header />
+
       <Post 
         author= "Lucas"
         content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam obcaecati provident sit fugiat suscipit dolorum, vel, praesentium, rerum aliquam nam distinctio quam voluptate asperiores quas inventore molestiae amet quod eveniet."
