@@ -1,4 +1,4 @@
-import { Trash } from 'phosphor-react';
+import { ThumbsUp, Trash } from 'phosphor-react';
 import styles from './Comment.module.css';
 
 export function Comment() {
@@ -9,14 +9,13 @@ export function Comment() {
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
-                        <div className={style.authorAndTime}>
+                        <div className={styles.authorAndTime}>
                             <strong>Lucas Pacheco</strong>
                             <time title='29 de Julho às 20:40h' dateTime='2022-07-29'>Cerca de 1h atrás.</time>
                         </div>
 
                         <button title='Deletar comentário'>
                             <Trash size={20}/>
-                        
                         </button>
                     </header>
 
@@ -33,3 +32,4 @@ export function Comment() {
         </div>
     )
 }
+
